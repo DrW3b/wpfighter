@@ -36,8 +36,9 @@ print('\033[0m')
 
 
 
-legal= "Legal Disclaimer:\nThis script is for educational and testing purposes only. Do not use it for illegal activities.\nThe author is not responsible for any misuse or damage caused by this script. Use at your own risk.\n\n"
+legal= "Legal Disclaimer:\nThis script is for educational and testing purposes only. Do not use it for illegal activities.\nThe author is not responsible for any misuse or damage caused by this script. Use at your own risk."
 print(legal)
+print("-----------------------------------------------")
 
 
 def signal_handler(signal, frame):
