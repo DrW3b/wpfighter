@@ -23,14 +23,18 @@ def signal_handler(signal, frame):
 
 signal.signal(signal.SIGINT, signal_handler)
 
-print('\033[31m'
-      '\n██╗    ██╗██████╗ ███████╗██╗ ██████╗ ██╗  ██╗████████╗███████╗██████╗ \n'
-      '██║    ██║██╔══██╗██╔════╝██║██╔════╝ ██║  ██║╚══██╔══╝██╔════╝██╔══██╗\n'
-      '██║ █╗ ██║██████╔╝█████╗  ██║██║  ███╗███████║   ██║   █████╗  ██████╔╝\n'
-      '██║███╗██║██╔═══╝ ██╔══╝  ██║██║   ██║██╔══██║   ██║   ██╔══╝  ██╔══██╗\n'
-      '╚███╔███╔╝██║     ██║     ██║╚██████╔╝██║  ██║   ██║   ███████╗██║  ██║\n'
-      ' ╚══╝╚══╝ ╚═╝     ╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝ v.1.8\n\nCoded by: DrW3B\n\nWordpress Brute Force Tool\n'
-      '\033[0m')
+print('\033[31m')
+print('██╗    ██╗██████╗ ███████╗██╗ ██████╗ ██╗  ██╗████████╗███████╗██████╗ ')
+print('██║    ██║██╔══██╗██╔════╝██║██╔════╝ ██║  ██║╚══██╔══╝██╔════╝██╔══██╗')
+print('██║ █╗ ██║██████╔╝█████╗  ██║██║  ███╗███████║   ██║   █████╗  ██████╔╝')
+print('██║███╗██║██╔═══╝ ██╔══╝  ██║██║   ██║██╔══██║   ██║   ██╔══╝  ██╔══██╗')
+print('╚███╔███╔╝██║     ██║     ██║╚██████╔╝██║  ██║   ██║   ███████╗██║  ██║')
+print(' ╚══╝╚══╝ ╚═╝     ╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝ v.1.8')
+print('Coded by: DrW3B')
+print('Wordpress Brute Force Tool')
+print('\033[0m')
+
+
 
 legal= "Legal Disclaimer:\nThis script is for educational and testing purposes only. Do not use it for illegal activities.\nThe author is not responsible for any misuse or damage caused by this script. Use at your own risk.\n\n"
 print(legal)
